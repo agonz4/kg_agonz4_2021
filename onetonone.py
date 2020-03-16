@@ -36,3 +36,6 @@ def one_to_one_matching(s1, s2):
         elif maping[ord(s1[i])] != s2[i]:
             return False
     return True
+    
+if __name__ == '__main__':
+    print(one_to_one_matching(*sys.argv[1:]))
